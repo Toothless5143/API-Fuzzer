@@ -5,7 +5,7 @@
 
 ### Installation:
 #### Download all the required libraries you need to run the tool:
-`git clone https://github.com/Toothless5143/Fuzzy.git && cd Fuzzy`
+`git clone https://github.com/Toothless5143/Fuzzy.git && cd Fuzzy`\
 `pip install -r requirements.txt`
 
 #### In order to run the tool apply this command:
