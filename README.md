@@ -10,3 +10,6 @@
 
 #### In order to run the tool apply this command:
 `python3 fuzzy.py -u <API URL> -w <Desired wordlist>`
+
+### License
+This tool is open source and available under the [MIT License.](/LICENSE.md)
