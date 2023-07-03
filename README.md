@@ -10,4 +10,4 @@ A Python tool that fuzzes an API endpoint with a provided wordlist using the arg
 `python3 fuzzy.py -u <API URL> -w <Desired wordlist>`
 
 ### License
-This tool is open source and available under the [MIT License.](/LICENSE.md)
+This tool is open source and available under the [MIT License.](/LICENSE)
