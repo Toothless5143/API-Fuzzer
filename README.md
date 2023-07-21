@@ -1,5 +1,5 @@
 # Fuzzy 
-A Python tool that fuzzes an API endpoint with a provided wordlist using the argparse and requests libraries.
+It is a simple API fuzzer that fuzzes (tests) an API endpoint with a wordlist. It uses the `argparse` library to parse command-line arguments for the API endpoint URL and the path to the wordlist file containing words to be used as parameters in the API request. The script then sends multiple GET requests to the API endpoint, using each word from the wordlist as a parameter in the URL, and prints the response data and status code for each request.
 
 ### Installation:
 Download all the required files and libraries you need to run the tool: <br>
