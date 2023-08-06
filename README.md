@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 
 In order to run the tool apply this command:
-```python3
+```shell
 python3 fuzzy.py -u <API URL> -w <Desired wordlist>
 ```
 
