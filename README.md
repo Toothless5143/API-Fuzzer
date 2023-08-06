@@ -3,11 +3,15 @@ It is a simple API fuzzer that fuzzes (tests) an API endpoint with a wordlist. I
 
 ### Installation:
 Download all the required files and libraries you need to run the tool: <br>
-`git clone https://github.com/Toothless5143/Fuzzy.git && cd Fuzzy`\
-`pip install -r requirements.txt`
+```shell 
+git clone https://github.com/Toothless5143/Fuzzy.git && cd Fuzzy
+pip install -r requirements.txt
+```
 
 In order to run the tool apply this command:
-`python3 fuzzy.py -u <API URL> -w <Desired wordlist>`
+```python3
+python3 fuzzy.py -u <API URL> -w <Desired wordlist>
+```
 
 ### License:
 This tool is open source and available under the [MIT License.](/LICENSE)
