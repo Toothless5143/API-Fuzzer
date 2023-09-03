@@ -1,17 +1,27 @@
-# Fuzzy:
-It is a simple API fuzzer that fuzzes (tests) an API endpoint with a wordlist. It uses the `argparse` library to parse command-line arguments for the API endpoint URL and the path to the wordlist file containing words to be used as parameters in the API request. The script then sends multiple GET requests to the API endpoint, using each word from the wordlist as a parameter in the URL, and prints the response data and status code for each request.
+# Fuzzy: API Fuzzer
 
-### Installation:
-Download all the required files and libraries: <br>
-```shell 
-git clone https://github.com/Toothless5143/Fuzzy.git && cd Fuzzy
-pip install -r requirements.txt
-```
+Fuzzy is a versatile Python tool designed for fuzzing (testing) API endpoints using a wordlist. With the help of the `argparse` library, this tool allows users to specify the API endpoint URL and the path to a wordlist file containing potential parameters for API requests. The script then iterates through the wordlist, sending multiple GET requests to the API endpoint with each word as a parameter in the URL. The tool outputs the response data, status code, and the word used in each request.
 
-In order to run the tool apply this command:
-```shell
-python3 fuzzy.py -u <API URL> -w <Desired wordlist>
-```
+**Features:**
+- Straightforward and efficient API fuzzer.
+- Fuzzes an API endpoint with a customizable wordlist.
+- Provides detailed output of response data and status codes for each request.
 
-### License:
-This tool is open source and available under the [MIT License.](/LICENSE)
+**Installation:**
+1. Clone the repository to your local machine using the following command:
+   ```shell
+   git clone https://github.com/Toothless5143/Fuzzy.git && cd Fuzzy
+   ```
+
+2. Install the required dependencies by executing the following command:
+   ```shell
+   pip install -r requirements.txt
+   ```
+
+3. Run the tool by applying the following command, providing the API endpoint URL and the desired wordlist:
+   ```shell
+   python3 fuzzy.py -u <API URL> -w <Wordlist file>
+   ```
+
+**License:**
+This tool is open source and available under the [MIT License](/LICENSE).
